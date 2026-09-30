@@ -1,16 +1,37 @@
-# React + Vite
+# Vocabulary Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Un carnet de vocabulaire simple pour apprendre une langue : ajoutez vos mots, révisez-les, progressez.
 
-Currently, two official plugins are available:
+> Le projet en est à ses débuts : pour l'instant, seule la page d'accueil est disponible.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Fonctionnalités prévues
 
-## React Compiler
+- **Ajoutez vos mots** : notez chaque nouveau mot avec sa traduction.
+- **Révisez** : retournez des cartes et indiquez si vous connaissiez la réponse.
+- **Progressez** : les mots difficiles reviennent plus souvent.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Technologies
 
-## Expanding the ESLint configuration
+- [React](https://react.dev) 19
+- [Vite](https://vite.dev)
+- [ESLint](https://eslint.org)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Démarrage
+
+Prérequis : [Node.js](https://nodejs.org) et npm.
+
+```bash
+npm install
+npm run dev
+```
+
+L'application est alors disponible sur l'adresse affichée dans le terminal (par défaut `http://localhost:5173`).
+
+## Scripts disponibles
+
+| Commande          | Description                                   |
+| ----------------- | --------------------------------------------- |
+| `npm run dev`     | Lance le serveur de développement             |
+| `npm run build`   | Génère la version de production dans `dist/`  |
+| `npm run preview` | Prévisualise la version de production         |
+| `npm run lint`    | Vérifie le code avec ESLint                   |
