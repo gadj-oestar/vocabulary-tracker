@@ -9,7 +9,7 @@ html { scroll-behavior: smooth; }
 }
 .brand { font-weight: 600; color: var(--text-h); }
 .nav nav { display: flex; gap: 20px; }
-.nav a { color: var(--text); text-decoration: none; }
+.nav a { color: var(--text); text-decoration: none; padding: 8px 0; }
 .nav a:hover { color: var(--accent); }
 
 main { flex: 1; }
@@ -48,3 +48,13 @@ main { flex: 1; }
 .start { padding: 56px 24px; background: var(--accent-bg); margin: 24px; border-radius: 14px; }
 
 footer { padding: 20px; border-top: 1px solid var(--border); font-size: 14px; }
+
+/* Téléphone : menu sous le logo, marges réduites pour garder de la place au contenu */
+@media (max-width: 480px) {
+  .nav { flex-direction: column; gap: 4px; padding: 12px 16px; }
+  .nav nav { gap: 24px; }
+  .hero { padding: 40px 16px 32px; }
+  .features { padding: 16px; gap: 16px; }
+  .features article { padding: 20px 16px; }
+  .start { margin: 16px; padding: 40px 16px; }
+}

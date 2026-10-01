@@ -60,6 +60,7 @@ body {
   margin: 0 auto;
   text-align: center;
   border-inline: 1px solid var(--border);
+  overflow-wrap: break-word;
   min-height: 100svh;
   display: flex;
   flex-direction: column;
@@ -75,11 +76,16 @@ h2 {
 
 h1 {
   font-size: 56px;
+  line-height: 1.1;
   letter-spacing: -1.68px;
   margin: 32px 0;
   @media (max-width: 1024px) {
     font-size: 36px;
     margin: 20px 0;
+  }
+  @media (max-width: 480px) {
+    font-size: 30px;
+    letter-spacing: -0.6px;
   }
 }
 h2 {

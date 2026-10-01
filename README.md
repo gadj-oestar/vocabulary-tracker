@@ -35,3 +35,13 @@ L'application est alors disponible sur l'adresse affichée dans le terminal (par
 | `npm run build`   | Génère la version de production dans `dist/`  |
 | `npm run preview` | Prévisualise la version de production         |
 | `npm run lint`    | Vérifie le code avec ESLint                   |
+
+## Mise en ligne
+
+Le site est prévu pour [Vercel](https://vercel.com), qui détecte Vite tout seul : aucune configuration n'est nécessaire.
+
+1. Se connecter sur [vercel.com](https://vercel.com) avec son compte GitHub.
+2. « Add New… », puis « Project », puis importer `vocabulary-tracker`.
+3. Laisser les réglages proposés (Framework : Vite, commande `npm run build`, dossier `dist`) et cliquer sur « Deploy ».
+
+Ensuite, chaque push sur `main` met le site à jour automatiquement, et chaque pull request reçoit sa propre adresse de prévisualisation. Documentation : [Vite sur Vercel](https://vercel.com/docs/frameworks/frontend/vite).
