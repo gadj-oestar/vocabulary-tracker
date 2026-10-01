@@ -44,4 +44,4 @@ Le site est prévu pour [Vercel](https://vercel.com), qui détecte Vite tout seu
 2. « Add New… », puis « Project », puis importer `vocabulary-tracker`.
 3. Laisser les réglages proposés (Framework : Vite, commande `npm run build`, dossier `dist`) et cliquer sur « Deploy ».
 
-Ensuite, chaque push sur `main` met le site à jour automatiquement, et chaque pull request reçoit sa propre adresse de prévisualisation. Documentation : [Vite sur Vercel](https://vercel.com/docs/frameworks/frontend/vite).
+Ensuite, chaque push sur `main` met le site à jour automatiquement, et chaque pull request reçoit sa propre adresse de prévisualisation. Documentation : [vercel.com/docs](https://vercel.com/docs).
